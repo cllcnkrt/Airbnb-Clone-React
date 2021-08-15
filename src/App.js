@@ -1,10 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>Airbnb clone</h1>
+      {/* HOME */}
+          {/* Header */}
+
+
+          {/* Banner */}  
+            {/* Search */}
+
+          {/* Card */}
+
+
+          {/* Footer */}
+    {/* SearchPage */}
+        {/* .... */}
     </div>
   );
 }
