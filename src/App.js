@@ -8,9 +8,6 @@ function App() {
       <Header/>
       {/* HOME */}
       <Home/>
-          {/* Header */}
-
-
           {/* Banner */}  
             {/* Search */}
 

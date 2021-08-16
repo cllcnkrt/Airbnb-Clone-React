@@ -3,7 +3,7 @@
   top: 35px;
   left: 25%;
   width: 100vw;
-z-index: 1;
+  z-index: 1;
 }
 
 .search > h2 {
@@ -34,15 +34,20 @@ z-index: 1;
 .search > button {
     position: absolute;
     left: 0;
-    top: 465px;
+    top: 464px;
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
     width: 579px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-weight: 700;
     
   }
   
 .search > button:hover {
     background-color: white;
     color: #ff7779;
+    border: 2px solid #ff7779;
+  
 }
