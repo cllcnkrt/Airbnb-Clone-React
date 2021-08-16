@@ -1,10 +1,13 @@
 import './App.css';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className="app">
-      <h1>Airbnb clone</h1>
+      <Header/>
       {/* HOME */}
+      <Home/>
           {/* Header */}
 
 
