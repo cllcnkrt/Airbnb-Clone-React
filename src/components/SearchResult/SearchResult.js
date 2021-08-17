@@ -1,6 +1,7 @@
-import React from "react";
+import React,{useState} from "react";
 import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import StarIcon from "@material-ui/icons/Star";
 function SearchResult({
   img,
@@ -11,10 +12,14 @@ function SearchResult({
   price,
   total,
 }) {
+  const [heart, setHeart] = useState(false)
+console.log(heart)
+
   return (
-    <div className="searchResult">
+    <div className="searchResult" onClick={()=>setHeart(!heart)}>
       <img src={img} alt="" />
-      <FavoriteBorderIcon className="searchResult__heart" />
+      {heart ? <FavoriteIcon color="secondary" className="searchResult__heart"/> :< FavoriteBorderIcon className="searchResult__heart"/>}
+      
 
       <div className="searchResult__info">
         <div className="searchResult__infoTop">
